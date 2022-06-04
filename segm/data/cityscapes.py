@@ -25,7 +25,8 @@ class CityscapesDataset(BaseMMSeg):
     def update_default_config(self, config):
 
         root_dir = dataset_dir()
-        path = Path(root_dir) / "cityscapes"
+        # path = Path(root_dir) / "cityscapes"
+        path = Path(root_dir)
         config.data_root = path
 
         config.data[self.split]["data_root"] = path
