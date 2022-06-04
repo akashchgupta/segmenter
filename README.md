@@ -148,7 +148,7 @@ Segmenter models with DeiT backbone:
 ### Cityscapes
 <table>
   <tr>
-    <th>Name</th>
+    <th>Name miou</th>
     <th>mIoU (SS/MS)</th>
     <th># params</th>
     <th>Resolution</th>
