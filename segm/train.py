@@ -69,7 +69,7 @@ def main(
 ):
     # start distributed mode
     ptu.set_gpu_mode(True)
-    distributed.init_process()
+    # distributed.init_process()
 
     # set up configuration
     cfg = config.load_config()
